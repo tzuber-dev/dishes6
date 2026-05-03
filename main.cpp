@@ -15,8 +15,8 @@ int main() {
 
 
     while (userselection != 5) {
-        std::cout<<"1. Push dish"<<std::endl;
-        std::cout<<"2. Pop dish"<<std::endl;
+        std::cout<<"1. Push your dish"<<std::endl;
+        std::cout<<"2. Pop your dish"<<std::endl;
         std::cout<<"3. Peek the very beginning dish"<<std::endl;
         std::cout<<"4. List quantity"<<std::endl;
         std::cout<<"5. Thank you for using the program!"<<std::endl;
