@@ -13,8 +13,9 @@ using namespace std;
 class ClassTwo {
 private:
     static const int capacity = 4;
-    Dish dishobject[capacity];
     int above;
+    Dish dishobject[capacity];
+    
 
 
 public:
