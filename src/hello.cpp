@@ -7,16 +7,19 @@
 using namespace std;
 
 
-ClassTwo::ClassTwo() : dishobject{ Dish(""), Dish(""), Dish(""), Dish("") } {
-    above = 0;
-
-};
 
 
 
 int ClassTwo::size() {
     return above;
 };
+
+
+ClassTwo::ClassTwo() : dishobject{ Dish(""), Dish(""), Dish(""), Dish("") } {
+    above = 0;
+
+};
+
 
 
 void ClassTwo::push(Dish dishes2) {
